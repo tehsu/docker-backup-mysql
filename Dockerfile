@@ -1,5 +1,7 @@
 FROM mariadb:latest
 
+LABEL org.opencontainers.image.source=https://github.com/tehsu/docker-backup-mysql
+
 ARG GOCRONVER=v0.0.10
 ARG TARGETOS=linux
 ARG TARGETARCH=amd64
