@@ -18,4 +18,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: user/app:latest
+          tags: tehsu/docker-backup-mysql:latest
